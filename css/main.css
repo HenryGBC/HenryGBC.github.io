@@ -139,9 +139,10 @@ textarea {
     color: #fff;
     z-index: 100;
 }
+
 .section-header .text h1{
     color: #fff;
-    font-size: 62px;
+    font-size: 52px;
     letter-spacing: 4px;
     margin: 0;
     line-height: 75px;
@@ -157,7 +158,7 @@ textarea {
 .section-header .text h4{
     margin: 0;
     font-size: 24px;
-
+    color: var(--color-green);
     margin-bottom: 5px;
 }
 
@@ -180,6 +181,7 @@ textarea {
 }
 .btn.btn-white{
     background-color: #fff;
+    color: black !important;
 }
 
 .section-description{
@@ -189,6 +191,12 @@ textarea {
 }
 .section-description.two{
     background-color:  var(--color-blue-gray);
+}
+.section-description.third{
+    background-color:  var(--color-blue-secondary);
+}
+.section-description.four{
+    background-color:  var(--color-blue-third);
 }
 
 .section-description .title{
@@ -208,6 +216,15 @@ textarea {
     right: -5px;
     top: 35px;
 }
+.title .pointer.pointer-share{
+    right: 70px;
+    top: -3px;
+}
+
+.title .pointer.pointer-startup{
+    right: 200px;
+    top: 38px;
+}
 
 .section-description .text{
     display: flex;
@@ -217,6 +234,9 @@ textarea {
 .section-description .text p{
     font-weight: 300;
     width: 45%;
+}
+.section-description .text p a{
+    color: var(--color-green);
 }
 .section-description .btn{
     margin-top: 30px;
@@ -251,6 +271,9 @@ textarea {
     }
     .section-description .text p {
         width: 100%;
+    }
+    .title .pointer{
+        display: none !important;
     }
     
 }
