@@ -207,6 +207,10 @@ textarea {
     letter-spacing: 5px;
     position: relative;
 }
+.section-description .title.center{
+    max-width: 100%;
+    text-align: center;
+}
 
 .title .pointer{
     width: 15px;
@@ -241,6 +245,14 @@ textarea {
 .section-description .btn{
     margin-top: 30px;
 }
+.section-description .social-content{
+    text-align: center;
+    font-size: 44px;
+}
+.section-description .social-content a{
+    color: var(--color-green);
+    text-decoration: none;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -274,6 +286,9 @@ textarea {
     }
     .title .pointer{
         display: none !important;
+    }
+    .section-description .social-content{
+        font-size: 26px;
     }
     
 }
