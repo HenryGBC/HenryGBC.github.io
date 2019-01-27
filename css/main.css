@@ -302,6 +302,9 @@ textarea {
     .title .pointer{
         display: none !important;
     }
+    .pointer.pointer-header{
+        display: none !important;
+    }
     .section-description .social-content{
         font-size: 26px;
     }
